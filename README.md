@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# create-nextjs-boilerplate
 
-## Getting Started
+`create-nextjs-boilerplate` is a command-line tool that helps you quickly generate a new Next.js project with a pre-configured authentication boilerplate. It's designed to make it easy to get started with a Next.js app that includes authentication setup, so you can focus on building your app rather than spending time on configuration.
 
-First, run the development server:
+## Features
+
+- **Quick Setup**: Create a Next.js project with authentication support(both OAuth Login And Custom Credentials Provider by AuthJS) in one simple command.
+- **Pre-configured Auth**: Ready-to-use boilerplate for user authentication using Next.js along with saving the user in Database (here used MongoDB).
+- **CLI Tool**: Easily generate your Next.js app directly from the command line with `npx`.
+
+## Installation
+
+You can use the `create-nextjs-boilerplate` CLI tool directly via `npx`, which allows you to execute the command without needing to install anything globally.
+
+### To create a new project, run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-nextjs-boilerplate <project-name>
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+Once the project is created, navigate to the newly created project folder:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd <project-name>
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Install the required dependencies:
 
-## Learn More
+```bash
 
-To learn more about Next.js, take a look at the following resources:
+npm install
+```
+Run the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm run dev
+```
+You can now start building your app with the pre-configured authentication system.
 
-## Deploy on Vercel
+## Authors
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👨‍💻 Vidit Maheshwari
+- [🔗 Github](https://www.github.com/vidit-maheshwari)  
+- [🔗 LinkedIn](https://www.linkedin.com/in/vidit-maheshwari/)
